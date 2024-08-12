@@ -11,6 +11,7 @@ pipeline {
          steps {
             sh(script: 'docker compose build')
          }
+
          
       }
    }
